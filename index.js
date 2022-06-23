@@ -15,7 +15,7 @@ function sleep(ms) {
             align: 'left',
             gradient: ['red', 'magenta']
         })
-        await sleep(4500);
+        await sleep(5000);
         console.clear()
         console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
 console.log(`${chalk.white(`
@@ -92,7 +92,7 @@ console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red
 ${chalk.red(` Status : Succes✓`)}\n`));
 await sleep(0);
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`has your account been banned?`));
+      console.log(chalk.bgRed(`Akunmu Kebanned Deck`));
      break;
     }
   }
